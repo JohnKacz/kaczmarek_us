@@ -597,7 +597,28 @@ p, ul, li{
   opacity: 0.8;
 }
 
+.not_found {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
+.not_found h1 {
+  font-size: 8rem;
+  text-align: center;
+  color: #CCDFCB;
+}
+
+.not_found a {
+  font-size: 2.2rem;
+  text-align: center;
+  color: #FF6A5C;
+}
+
+.not_found a:hover {
+  opacity: 0.8;
+}
 
 
 /* Animation
