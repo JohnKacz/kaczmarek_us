@@ -585,7 +585,7 @@ p, ul, li{
 
 .mail {
   background-image: url("../images/mail.svg");
-  height: 42px;
+  min-height: 42px;
   width: 48px;
   background-size: 100% auto;
   display: block;
@@ -594,6 +594,16 @@ p, ul, li{
 
 .mail:hover {
   opacity: 0.8;
+}
+
+.credit {
+  margin: 30px auto 0px;
+  font-size: 70%;
+}
+
+.credit a {
+  color: #FF6A5C;
+  text-shadow: none;
 }
 
 .not_found {
@@ -841,7 +851,7 @@ p, ul, li{
   }
 
   .mail {
-    height: 62px;
+    min-height: 62px;
     width: 68px;
   }
 }
@@ -932,7 +942,7 @@ p, ul, li{
   }
 
   .mail {
-    height: 62px;
+    min-height: 62px;
     width: 68px;
   }
 }
